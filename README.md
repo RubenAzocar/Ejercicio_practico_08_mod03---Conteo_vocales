@@ -124,7 +124,7 @@ Total de vocales: 7
 
 1. **Solicitud de datos**: El programa pide al usuario la cantidad de palabras y luego las palabras mismas
 2. **Validación**: Verifica que la cantidad ingresada coincida con el número de palabras
-3. **Función contarVocales**: 
+3. **Función contarVocales**:
    - Convierte el texto a minúsculas
    - Define un array de vocales `['a', 'e', 'i', 'o', 'u']`
    - Recorre cada carácter verificando si es una vocal
@@ -140,8 +140,8 @@ Total de vocales: 7
 
 ## 👨‍💻 Autor
 
-**Rubén**  
-Curso Fullstack - Talento Digital  
+**Rubén**
+Curso Fullstack - Talento Digital
 Módulo 3 - Ejercicio Práctico 08
 
 ## 📝 Notas Adicionales
@@ -153,16 +153,16 @@ Módulo 3 - Ejercicio Práctico 08
 
 ## 🎯 Criterios de Evaluación Cumplidos
 
-✅ Preparación del entorno (HTML + JS enlazado)  
-✅ Ingreso de datos con `prompt()`  
-✅ Almacenamiento en arrays  
-✅ Función expresiva `contarVocales()`  
-✅ Uso de `toLowerCase()`  
-✅ Uso de `includes()`  
-✅ Unificación con `join()`  
-✅ Salida con `console.log()`  
-✅ Salida con `window.alert()`  
-✅ Salida con `innerHTML`  
+✅ Preparación del entorno (HTML + JS enlazado)
+✅ Ingreso de datos con `prompt()`
+✅ Almacenamiento en arrays
+✅ Función expresiva `contarVocales()`
+✅ Uso de `toLowerCase()`
+✅ Uso de `includes()`
+✅ Unificación con `join()`
+✅ Salida con `console.log()`
+✅ Salida con `window.alert()`
+✅ Salida con `innerHTML`
 
 ---
 
