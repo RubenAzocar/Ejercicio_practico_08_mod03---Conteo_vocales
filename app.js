@@ -16,11 +16,12 @@ if (arrayPalabras.length !== cantidadPalabras) {
 
 // ============================================================================
 // FUNCIÓN PARA CONTAR VOCALES EN UNA PALABRA
+// Incluye vocales con y sin acento (tilde)
 // ============================================================================
 
 const contarVocales = function (palabra) {
     let palabraMinusculas = palabra.toLowerCase();
-    const vocales = ['a', 'e', 'i', 'o', 'u'];
+    const vocales = ['a', 'e', 'i', 'o', 'u', 'á', 'é', 'í', 'ó', 'ú'];
     let contador = 0;
 
     for (let caracter of palabraMinusculas) {

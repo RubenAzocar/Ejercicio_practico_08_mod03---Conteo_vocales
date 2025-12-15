@@ -95,17 +95,24 @@ const contarVocales = function (palabra) {
     // - Guardamos el resultado en una nueva variable para no perder la palabra original
 
     // ========================================================================
-    // LÍNEA 80: Definir array de vocales
+    // LÍNEA 80: Definir array de vocales (con y sin acento)
     // ========================================================================
-    const vocales = ['a', 'e', 'i', 'o', 'u'];
+    const vocales = ['a', 'e', 'i', 'o', 'u', 'á', 'é', 'í', 'ó', 'ú'];
     // EXPLICACIÓN LÍNEA 80:
     // - const: usamos const porque este array NO cambiará
     // - vocales: nombre descriptivo del array
-    // - ['a', 'e', 'i', 'o', 'u']: ARRAY LITERAL con las 5 vocales
+    // - ['a', 'e', 'i', 'o', 'u', 'á', 'é', 'í', 'ó', 'ú']: ARRAY LITERAL con las vocales
     // - Los corchetes [] indican que es un array
-    // - Cada vocal va entre comillas simples porque son strings
+    // - Incluye las 5 vocales SIN acento: 'a', 'e', 'i', 'o', 'u'
+    // - Incluye las 5 vocales CON acento (tilde): 'á', 'é', 'í', 'ó', 'ú'
+    // - ¿Por qué incluir vocales acentuadas? Porque en español es muy común usar tildes
+    // - Ejemplos: "canción", "José", "útil", "médico", "mamá"
+    // - Sin las vocales acentuadas, NO se contarían correctamente
+    // - Cada vocal va entre comillas simples porque son strings de un solo carácter
     // - Las comas separan los elementos del array
     // - Este array servirá como REFERENCIA para comparar cada carácter
+    // - IMPORTANTE: .toLowerCase() también convierte Á→á, É→é, Í→í, Ó→ó, Ú→ú
+    // - Por eso solo necesitamos las minúsculas en el array
 
     // ========================================================================
     // LÍNEA 88: Inicializar contador
